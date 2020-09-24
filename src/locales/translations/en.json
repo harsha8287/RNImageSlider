@@ -1,0 +1,8 @@
+{
+    "home_screen": {
+        "lbl_home": "Home Screen",
+        "lbl_author": "Author:",
+        "alert_network_error": "Network Error",
+        "alert_no_internet": "No Internet Connection"
+    }
+}

@@ -1,0 +1,6 @@
+projectKey=rn_image_slider
+serverUrl=http://localhost:9000
+serverVersion=8.4.2.36762
+dashboardUrl=http://localhost:9000/dashboard?id=rn_image_slider
+ceTaskId=AXTBOwHCL9AsZXWLLhk6
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AXTBOwHCL9AsZXWLLhk6

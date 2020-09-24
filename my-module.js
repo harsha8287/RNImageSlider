@@ -1,0 +1,1 @@
+export default "my-module-at-src";

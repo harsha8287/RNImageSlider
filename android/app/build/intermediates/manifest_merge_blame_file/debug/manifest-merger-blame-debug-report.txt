@@ -1,0 +1,509 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.rntest"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="28" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:3:3-75
+11-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:3:20-73
+12    <uses-permission android:name="android.permission.INTERNET" /> <!-- OPTIONAL PERMISSIONS, REMOVE WHATEVER YOU DO NOT NEED -->
+12-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:2:3-64
+12-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:2:20-62
+13    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
+13-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:5:3-72
+13-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:5:20-70
+14    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+14-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:6:3-77
+14-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:6:20-75
+15    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+15-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:7:3-72
+15-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:7:20-70
+16    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+16-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:8:3-71
+16-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:8:20-69
+17    <uses-permission android:name="android.permission.VIBRATE" />
+17-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:9:3-63
+17-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:9:20-61
+18    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" /> <!-- These require runtime permissions on M -->
+18-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:10:3-77
+18-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:10:20-75
+19    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+19-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:12:3-78
+19-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:12:20-76
+20    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+20-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:13:3-76
+20-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:13:20-74
+21    <uses-permission android:name="android.permission.CAMERA" />
+21-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:14:3-62
+21-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:14:20-60
+22    <uses-permission android:name="android.permission.READ_CONTACTS" />
+22-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:15:3-69
+22-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:15:20-67
+23    <uses-permission android:name="android.permission.READ_CALENDAR" />
+23-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:16:3-69
+23-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:16:20-67
+24    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+24-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:17:3-70
+24-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:17:20-68
+25    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+25-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:18:3-77
+25-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:18:20-75
+26    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+26-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:19:3-68
+26-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:19:20-66
+27    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+27-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:20:3-78
+27-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:20:20-76
+28    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+28-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:21:3-70
+28-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:21:20-68
+29    <uses-permission android:name="android.permission.VIBRATE" />
+29-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:9:3-63
+29-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:9:20-61
+30    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+30-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:24:3-78
+30-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:24:20-76
+31    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+31-->[com.facebook.flipper:flipper:0.33.1] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\e20c5fd13c23d83f49f475086ad95862\jetified-flipper-0.33.1\AndroidManifest.xml:16:5-76
+31-->[com.facebook.flipper:flipper:0.33.1] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\e20c5fd13c23d83f49f475086ad95862\jetified-flipper-0.33.1\AndroidManifest.xml:16:22-73
+32    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+32-->[:expo-updates] D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\node_modules\expo-updates\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-79
+32-->[:expo-updates] D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\node_modules\expo-updates\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:22-76
+33    <uses-permission android:name="android.permission.STORAGE" />
+33-->[:expo-file-system] D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-66
+33-->[:expo-file-system] D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:22-63
+34    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+34-->[:expo-location] D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-77
+34-->[:expo-location] D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-74
+35    <uses-permission android:name="android.permission.WAKE_LOCK" />
+35-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\62d693ef667d3f261ccccc251ebdf18a\play-services-measurement-17.3.0\AndroidManifest.xml:25:5-68
+35-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\62d693ef667d3f261ccccc251ebdf18a\play-services-measurement-17.3.0\AndroidManifest.xml:25:22-65
+36    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+36-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\62d693ef667d3f261ccccc251ebdf18a\play-services-measurement-17.3.0\AndroidManifest.xml:26:5-110
+36-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\62d693ef667d3f261ccccc251ebdf18a\play-services-measurement-17.3.0\AndroidManifest.xml:26:22-107
+37    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- for android -->
+37-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\0378018811dadecd4484e276e778c107\firebase-iid-20.2.3\AndroidManifest.xml:26:5-82
+37-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\0378018811dadecd4484e276e778c107\firebase-iid-20.2.3\AndroidManifest.xml:26:22-79
+38    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+39    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+40    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+41    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+42    <!-- for Samsung -->
+43    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+43-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\3d6140dc8e657eb3d7a36d646734f49c\ShortcutBadger-1.1.22\AndroidManifest.xml:19:5-86
+43-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\3d6140dc8e657eb3d7a36d646734f49c\ShortcutBadger-1.1.22\AndroidManifest.xml:19:22-83
+44    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+44-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\3d6140dc8e657eb3d7a36d646734f49c\ShortcutBadger-1.1.22\AndroidManifest.xml:20:5-87
+44-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\3d6140dc8e657eb3d7a36d646734f49c\ShortcutBadger-1.1.22\AndroidManifest.xml:20:22-84
+45    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+45-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\3d6140dc8e657eb3d7a36d646734f49c\ShortcutBadger-1.1.22\AndroidManifest.xml:23:5-81
+45-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\3d6140dc8e657eb3d7a36d646734f49c\ShortcutBadger-1.1.22\AndroidManifest.xml:23:22-78
+46    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+46-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\3d6140dc8e657eb3d7a36d646734f49c\ShortcutBadger-1.1.22\AndroidManifest.xml:24:5-83
+46-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\3d6140dc8e657eb3d7a36d646734f49c\ShortcutBadger-1.1.22\AndroidManifest.xml:24:22-80
+47    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+47-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\3d6140dc8e657eb3d7a36d646734f49c\ShortcutBadger-1.1.22\AndroidManifest.xml:27:5-88
+47-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\3d6140dc8e657eb3d7a36d646734f49c\ShortcutBadger-1.1.22\AndroidManifest.xml:27:22-85
+48    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+48-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\3d6140dc8e657eb3d7a36d646734f49c\ShortcutBadger-1.1.22\AndroidManifest.xml:28:5-92
+48-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\3d6140dc8e657eb3d7a36d646734f49c\ShortcutBadger-1.1.22\AndroidManifest.xml:28:22-89
+49    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+49-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\3d6140dc8e657eb3d7a36d646734f49c\ShortcutBadger-1.1.22\AndroidManifest.xml:31:5-84
+49-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\3d6140dc8e657eb3d7a36d646734f49c\ShortcutBadger-1.1.22\AndroidManifest.xml:31:22-81
+50    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+50-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\3d6140dc8e657eb3d7a36d646734f49c\ShortcutBadger-1.1.22\AndroidManifest.xml:34:5-83
+50-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\3d6140dc8e657eb3d7a36d646734f49c\ShortcutBadger-1.1.22\AndroidManifest.xml:34:22-80
+51    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+51-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\3d6140dc8e657eb3d7a36d646734f49c\ShortcutBadger-1.1.22\AndroidManifest.xml:37:5-91
+51-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\3d6140dc8e657eb3d7a36d646734f49c\ShortcutBadger-1.1.22\AndroidManifest.xml:37:22-88
+52    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+52-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\3d6140dc8e657eb3d7a36d646734f49c\ShortcutBadger-1.1.22\AndroidManifest.xml:38:5-92
+52-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\3d6140dc8e657eb3d7a36d646734f49c\ShortcutBadger-1.1.22\AndroidManifest.xml:38:22-89
+53    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+53-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\3d6140dc8e657eb3d7a36d646734f49c\ShortcutBadger-1.1.22\AndroidManifest.xml:39:5-93
+53-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\3d6140dc8e657eb3d7a36d646734f49c\ShortcutBadger-1.1.22\AndroidManifest.xml:39:22-90
+54    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+54-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\3d6140dc8e657eb3d7a36d646734f49c\ShortcutBadger-1.1.22\AndroidManifest.xml:42:5-73
+54-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\3d6140dc8e657eb3d7a36d646734f49c\ShortcutBadger-1.1.22\AndroidManifest.xml:42:22-70
+55    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+55-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\3d6140dc8e657eb3d7a36d646734f49c\ShortcutBadger-1.1.22\AndroidManifest.xml:45:5-82
+55-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\3d6140dc8e657eb3d7a36d646734f49c\ShortcutBadger-1.1.22\AndroidManifest.xml:45:22-79
+56    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+56-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\3d6140dc8e657eb3d7a36d646734f49c\ShortcutBadger-1.1.22\AndroidManifest.xml:46:5-83
+56-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\3d6140dc8e657eb3d7a36d646734f49c\ShortcutBadger-1.1.22\AndroidManifest.xml:46:22-80
+57    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+57-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\3d6140dc8e657eb3d7a36d646734f49c\ShortcutBadger-1.1.22\AndroidManifest.xml:49:5-88
+57-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\3d6140dc8e657eb3d7a36d646734f49c\ShortcutBadger-1.1.22\AndroidManifest.xml:49:22-85
+58    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+58-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\3d6140dc8e657eb3d7a36d646734f49c\ShortcutBadger-1.1.22\AndroidManifest.xml:50:5-89
+58-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\3d6140dc8e657eb3d7a36d646734f49c\ShortcutBadger-1.1.22\AndroidManifest.xml:50:22-86
+59    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+59-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\92ac16d35e2df286b4b0e675696be3ae\jetified-library-3.2.11\AndroidManifest.xml:15:5-98
+59-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\92ac16d35e2df286b4b0e675696be3ae\jetified-library-3.2.11\AndroidManifest.xml:15:22-95
+60    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+60-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\92ac16d35e2df286b4b0e675696be3ae\jetified-library-3.2.11\AndroidManifest.xml:16:5-94
+60-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\92ac16d35e2df286b4b0e675696be3ae\jetified-library-3.2.11\AndroidManifest.xml:16:22-91
+61
+62    <application
+62-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:26:3-61:17
+63        android:name="com.rntest.MainApplication"
+63-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:27:5-36
+64        android:allowBackup="false"
+64-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:31:5-32
+65        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+65-->[androidx.core:core:1.5.0-alpha02] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\344211c252aa533c0f5e508ee4ab5b71\core-1.5.0-alpha02\AndroidManifest.xml:24:18-86
+66        android:debuggable="true"
+67        android:icon="@mipmap/ic_launcher"
+67-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:29:5-39
+68        android:label="@string/app_name"
+68-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:28:5-37
+69        android:roundIcon="@mipmap/ic_launcher_round"
+69-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:30:5-50
+70        android:theme="@style/AppTheme"
+70-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:32:5-36
+71        android:usesCleartextTraffic="true" >
+71-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\debug\AndroidManifest.xml:6:18-53
+72        <meta-data
+72-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:34:5-103
+73            android:name="expo.modules.updates.EXPO_UPDATE_URL"
+73-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:34:16-67
+74            android:value="YOUR-APP-URL-HERE" />
+74-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:34:68-101
+75        <meta-data
+75-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:35:5-112
+76            android:name="expo.modules.updates.EXPO_SDK_VERSION"
+76-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:35:16-68
+77            android:value="YOUR-APP-SDK-VERSION-HERE" />
+77-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:35:69-110
+78
+79        <activity
+79-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:36:5-48:16
+80            android:name="com.rntest.MainActivity"
+80-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:37:7-35
+81            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+81-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:39:7-84
+82            android:label="@string/app_name"
+82-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:38:7-39
+83            android:launchMode="singleTask"
+83-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:40:7-38
+84            android:theme="@style/Theme.App.SplashScreen"
+84-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:42:7-52
+85            android:windowSoftInputMode="adjustResize" >
+85-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:41:7-49
+86            <intent-filter>
+86-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:44:7-47:23
+87                <action android:name="android.intent.action.MAIN" />
+87-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:45:9-60
+87-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:45:17-58
+88
+89                <category android:name="android.intent.category.LAUNCHER" />
+89-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:46:9-68
+89-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:46:19-66
+90            </intent-filter>
+91        </activity>
+92        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+92-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:49:5-81
+92-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:49:15-79
+93
+94        <meta-data
+94-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:51:3-142
+95            android:name="com.dieam.reactnativepushnotification.notification_channel_name"
+95-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:51:15-93
+96            android:value="YOUR NOTIFICATION CHANNEL NAME" />
+96-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:51:94-140
+97        <meta-data
+97-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:52:3-156
+98            android:name="com.dieam.reactnativepushnotification.notification_channel_description"
+98-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:52:15-100
+99            android:value="YOUR NOTIFICATION CHANNEL DESCRIPTION" /> <!-- Change the value to true to enable pop-up for in foreground (remote-only, for local use ignoreInForeground) -->
+99-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:52:101-154
+100        <meta-data
+100-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:53:3-115
+101            android:name="com.dieam.reactnativepushnotification.notification_foreground"
+101-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:53:15-91
+102            android:value="false" /> <!-- Change the value to false if you don't want the creation of the default channel -->
+102-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:53:92-113
+103        <meta-data
+103-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:54:3-113
+104            android:name="com.dieam.reactnativepushnotification.channel_create_default"
+104-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:54:15-90
+105            android:value="true" /> <!-- Change the resource name to your App's accent color - or any other color you want -->
+105-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:54:91-111
+106        <meta-data
+106-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:55:3-120
+107            android:name="com.dieam.reactnativepushnotification.notification_color"
+107-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:55:15-86
+108            android:resource="@color/white" /> <!-- or @android:color/{name} to use a standard color -->
+108-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:55:87-118
+109        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationActions" />
+109-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:56:3-102
+109-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:56:13-99
+110        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher" />
+110-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:56:103-204
+110-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:56:113-201
+111        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver" >
+111-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:57:3-218
+111-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:57:13-109
+112            <intent-filter>
+112-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:57:111-206
+113                <action android:name="android.intent.action.BOOT_COMPLETED" />
+113-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:57:127-189
+113-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:57:135-186
+114            </intent-filter>
+115        </receiver>
+116
+117        <service
+117-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:58:3-239
+118            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService"
+118-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:58:12-106
+119            android:exported="false" >
+119-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:58:107-131
+120            <intent-filter>
+120-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:58:134-228
+121                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+121-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:58:150-211
+121-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:58:158-208
+122            </intent-filter>
+123        </service>
+124
+125        <meta-data
+125-->[:unimodules-react-native-adapter] D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-14:91
+126            android:name="org.unimodules.core.AppLoader#react-native-headless"
+126-->[:unimodules-react-native-adapter] D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-79
+127            android:value="org.unimodules.adapters.react.apploader.RNHeadlessAppLoader" />
+127-->[:unimodules-react-native-adapter] D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-88
+128
+129        <provider
+129-->[:expo-file-system] D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:9-27:20
+130            android:name="expo.modules.filesystem.FileSystemFileProvider"
+130-->[:expo-file-system] D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-74
+131            android:authorities="com.rntest.FileSystemFileProvider"
+131-->[:expo-file-system] D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-74
+132            android:exported="false"
+132-->[:expo-file-system] D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:13-37
+133            android:grantUriPermissions="true" >
+133-->[:expo-file-system] D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:13-47
+134            <meta-data
+134-->[:expo-file-system] D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-26:70
+135                android:name="android.support.FILE_PROVIDER_PATHS"
+135-->[:expo-file-system] D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:17-67
+136                android:resource="@xml/file_system_provider_paths" />
+136-->[:expo-file-system] D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:17-67
+137        </provider>
+138
+139        <service
+139-->[:expo-location] D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-18:40
+140            android:name="expo.modules.location.services.LocationTaskService"
+140-->[:expo-location] D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-78
+141            android:exported="false" />
+141-->[:expo-location] D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-37
+142        <!--
+143             FirebaseMessagingService performs security checks at runtime,
+144             but set to not exported to explicitly avoid allowing another app to call it.
+145        -->
+146        <service
+146-->[com.google.firebase:firebase-messaging:20.2.4] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\fd2d2c759755e3be23d198f8e8df2f73\jetified-firebase-messaging-20.2.4\AndroidManifest.xml:28:9-35:19
+147            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+147-->[com.google.firebase:firebase-messaging:20.2.4] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\fd2d2c759755e3be23d198f8e8df2f73\jetified-firebase-messaging-20.2.4\AndroidManifest.xml:29:13-82
+148            android:directBootAware="true"
+148-->[com.google.firebase:firebase-messaging:20.2.4] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\fd2d2c759755e3be23d198f8e8df2f73\jetified-firebase-messaging-20.2.4\AndroidManifest.xml:30:13-43
+149            android:exported="false" >
+149-->[com.google.firebase:firebase-messaging:20.2.4] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\fd2d2c759755e3be23d198f8e8df2f73\jetified-firebase-messaging-20.2.4\AndroidManifest.xml:31:13-37
+150            <intent-filter android:priority="-500" >
+150-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:58:134-228
+151                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+151-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:58:150-211
+151-->D:\Harsha\Personal\React Native Task\RNTEST-master\RNTEST-master\android\app\src\main\AndroidManifest.xml:58:158-208
+152            </intent-filter>
+153        </service>
+154        <service
+154-->[com.google.firebase:firebase-messaging:20.2.4] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\fd2d2c759755e3be23d198f8e8df2f73\jetified-firebase-messaging-20.2.4\AndroidManifest.xml:36:9-42:19
+155            android:name="com.google.firebase.components.ComponentDiscoveryService"
+155-->[com.google.firebase:firebase-messaging:20.2.4] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\fd2d2c759755e3be23d198f8e8df2f73\jetified-firebase-messaging-20.2.4\AndroidManifest.xml:37:13-84
+156            android:directBootAware="true"
+156-->[com.google.firebase:firebase-common:19.3.0] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\2da98f58253237727bbe35c251c858fd\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+157            android:exported="false" >
+157-->[com.google.firebase:firebase-messaging:20.2.4] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\fd2d2c759755e3be23d198f8e8df2f73\jetified-firebase-messaging-20.2.4\AndroidManifest.xml:38:13-37
+158            <meta-data
+158-->[com.google.firebase:firebase-messaging:20.2.4] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\fd2d2c759755e3be23d198f8e8df2f73\jetified-firebase-messaging-20.2.4\AndroidManifest.xml:39:13-41:85
+159                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+159-->[com.google.firebase:firebase-messaging:20.2.4] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\fd2d2c759755e3be23d198f8e8df2f73\jetified-firebase-messaging-20.2.4\AndroidManifest.xml:40:17-119
+160                android:value="com.google.firebase.components.ComponentRegistrar" />
+160-->[com.google.firebase:firebase-messaging:20.2.4] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\fd2d2c759755e3be23d198f8e8df2f73\jetified-firebase-messaging-20.2.4\AndroidManifest.xml:41:17-82
+161            <meta-data
+161-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\e3a122b125bac98001c9452ad1e554b5\firebase-datatransport-17.0.3\AndroidManifest.xml:28:13-30:85
+162                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+162-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\e3a122b125bac98001c9452ad1e554b5\firebase-datatransport-17.0.3\AndroidManifest.xml:29:17-115
+163                android:value="com.google.firebase.components.ComponentRegistrar" />
+163-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\e3a122b125bac98001c9452ad1e554b5\firebase-datatransport-17.0.3\AndroidManifest.xml:30:17-82
+164            <meta-data
+164-->[com.google.android.gms:play-services-measurement-api:17.3.0] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\a9ffe07841b36237716ffba202b8d037\play-services-measurement-api-17.3.0\AndroidManifest.xml:30:13-32:85
+165                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+165-->[com.google.android.gms:play-services-measurement-api:17.3.0] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\a9ffe07841b36237716ffba202b8d037\play-services-measurement-api-17.3.0\AndroidManifest.xml:31:17-139
+166                android:value="com.google.firebase.components.ComponentRegistrar" />
+166-->[com.google.android.gms:play-services-measurement-api:17.3.0] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\a9ffe07841b36237716ffba202b8d037\play-services-measurement-api-17.3.0\AndroidManifest.xml:32:17-82
+167            <meta-data
+167-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\0378018811dadecd4484e276e778c107\firebase-iid-20.2.3\AndroidManifest.xml:32:13-34:85
+168                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+168-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\0378018811dadecd4484e276e778c107\firebase-iid-20.2.3\AndroidManifest.xml:33:17-96
+169                android:value="com.google.firebase.components.ComponentRegistrar" />
+169-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\0378018811dadecd4484e276e778c107\firebase-iid-20.2.3\AndroidManifest.xml:34:17-82
+170            <meta-data
+170-->[com.google.firebase:firebase-installations:16.3.3] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\e0dbd7fffd758153099beacf4329741c\firebase-installations-16.3.3\AndroidManifest.xml:17:13-19:85
+171                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+171-->[com.google.firebase:firebase-installations:16.3.3] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\e0dbd7fffd758153099beacf4329741c\firebase-installations-16.3.3\AndroidManifest.xml:18:17-127
+172                android:value="com.google.firebase.components.ComponentRegistrar" />
+172-->[com.google.firebase:firebase-installations:16.3.3] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\e0dbd7fffd758153099beacf4329741c\firebase-installations-16.3.3\AndroidManifest.xml:19:17-82
+173        </service>
+174        <service
+174-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\33bf94bf226763102caaa3d27b686e5b\transport-backend-cct-2.2.0\AndroidManifest.xml:29:9-35:19
+175            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+175-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\33bf94bf226763102caaa3d27b686e5b\transport-backend-cct-2.2.0\AndroidManifest.xml:30:13-103
+176            android:exported="false" >
+176-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\33bf94bf226763102caaa3d27b686e5b\transport-backend-cct-2.2.0\AndroidManifest.xml:31:13-37
+177            <meta-data
+177-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\33bf94bf226763102caaa3d27b686e5b\transport-backend-cct-2.2.0\AndroidManifest.xml:32:13-34:39
+178                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+178-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\33bf94bf226763102caaa3d27b686e5b\transport-backend-cct-2.2.0\AndroidManifest.xml:33:17-94
+179                android:value="cct" />
+179-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\33bf94bf226763102caaa3d27b686e5b\transport-backend-cct-2.2.0\AndroidManifest.xml:34:17-36
+180        </service>
+181        <service
+181-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\ad0f1c6e542cdf0c3b272360ca1ba778\transport-runtime-2.2.0\AndroidManifest.xml:26:9-30:19
+182            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+182-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\ad0f1c6e542cdf0c3b272360ca1ba778\transport-runtime-2.2.0\AndroidManifest.xml:27:13-117
+183            android:exported="false"
+183-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\ad0f1c6e542cdf0c3b272360ca1ba778\transport-runtime-2.2.0\AndroidManifest.xml:28:13-37
+184            android:permission="android.permission.BIND_JOB_SERVICE" >
+184-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\ad0f1c6e542cdf0c3b272360ca1ba778\transport-runtime-2.2.0\AndroidManifest.xml:29:13-69
+185        </service>
+186
+187        <receiver
+187-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\ad0f1c6e542cdf0c3b272360ca1ba778\transport-runtime-2.2.0\AndroidManifest.xml:32:9-34:40
+188            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+188-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\ad0f1c6e542cdf0c3b272360ca1ba778\transport-runtime-2.2.0\AndroidManifest.xml:33:13-132
+189            android:exported="false" />
+189-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\ad0f1c6e542cdf0c3b272360ca1ba778\transport-runtime-2.2.0\AndroidManifest.xml:34:13-37
+190
+191        <service
+191-->[androidx.room:room-runtime:2.1.0] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\36b5c334e91d97d9296503ef2e068c31\room-runtime-2.1.0\AndroidManifest.xml:25:9-27:40
+192            android:name="androidx.room.MultiInstanceInvalidationService"
+192-->[androidx.room:room-runtime:2.1.0] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\36b5c334e91d97d9296503ef2e068c31\room-runtime-2.1.0\AndroidManifest.xml:26:13-74
+193            android:exported="false" />
+193-->[androidx.room:room-runtime:2.1.0] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\36b5c334e91d97d9296503ef2e068c31\room-runtime-2.1.0\AndroidManifest.xml:27:13-37
+194
+195        <receiver
+195-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\62d693ef667d3f261ccccc251ebdf18a\play-services-measurement-17.3.0\AndroidManifest.xml:29:9-33:20
+196            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+196-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\62d693ef667d3f261ccccc251ebdf18a\play-services-measurement-17.3.0\AndroidManifest.xml:30:13-85
+197            android:enabled="true"
+197-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\62d693ef667d3f261ccccc251ebdf18a\play-services-measurement-17.3.0\AndroidManifest.xml:31:13-35
+198            android:exported="false" >
+198-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\62d693ef667d3f261ccccc251ebdf18a\play-services-measurement-17.3.0\AndroidManifest.xml:32:13-37
+199        </receiver>
+200        <receiver
+200-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\62d693ef667d3f261ccccc251ebdf18a\play-services-measurement-17.3.0\AndroidManifest.xml:34:9-42:20
+201            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+201-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\62d693ef667d3f261ccccc251ebdf18a\play-services-measurement-17.3.0\AndroidManifest.xml:35:13-100
+202            android:enabled="true"
+202-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\62d693ef667d3f261ccccc251ebdf18a\play-services-measurement-17.3.0\AndroidManifest.xml:36:13-35
+203            android:exported="true"
+203-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\62d693ef667d3f261ccccc251ebdf18a\play-services-measurement-17.3.0\AndroidManifest.xml:37:13-36
+204            android:permission="android.permission.INSTALL_PACKAGES" >
+204-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\62d693ef667d3f261ccccc251ebdf18a\play-services-measurement-17.3.0\AndroidManifest.xml:38:13-69
+205            <intent-filter>
+205-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\62d693ef667d3f261ccccc251ebdf18a\play-services-measurement-17.3.0\AndroidManifest.xml:39:13-41:29
+206                <action android:name="com.android.vending.INSTALL_REFERRER" />
+206-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\62d693ef667d3f261ccccc251ebdf18a\play-services-measurement-17.3.0\AndroidManifest.xml:40:17-79
+206-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\62d693ef667d3f261ccccc251ebdf18a\play-services-measurement-17.3.0\AndroidManifest.xml:40:25-76
+207            </intent-filter>
+208        </receiver>
+209
+210        <service
+210-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\62d693ef667d3f261ccccc251ebdf18a\play-services-measurement-17.3.0\AndroidManifest.xml:44:9-47:40
+211            android:name="com.google.android.gms.measurement.AppMeasurementService"
+211-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\62d693ef667d3f261ccccc251ebdf18a\play-services-measurement-17.3.0\AndroidManifest.xml:45:13-84
+212            android:enabled="true"
+212-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\62d693ef667d3f261ccccc251ebdf18a\play-services-measurement-17.3.0\AndroidManifest.xml:46:13-35
+213            android:exported="false" />
+213-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\62d693ef667d3f261ccccc251ebdf18a\play-services-measurement-17.3.0\AndroidManifest.xml:47:13-37
+214        <service
+214-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\62d693ef667d3f261ccccc251ebdf18a\play-services-measurement-17.3.0\AndroidManifest.xml:48:9-52:72
+215            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+215-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\62d693ef667d3f261ccccc251ebdf18a\play-services-measurement-17.3.0\AndroidManifest.xml:49:13-87
+216            android:enabled="true"
+216-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\62d693ef667d3f261ccccc251ebdf18a\play-services-measurement-17.3.0\AndroidManifest.xml:50:13-35
+217            android:exported="false"
+217-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\62d693ef667d3f261ccccc251ebdf18a\play-services-measurement-17.3.0\AndroidManifest.xml:51:13-37
+218            android:permission="android.permission.BIND_JOB_SERVICE" />
+218-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\62d693ef667d3f261ccccc251ebdf18a\play-services-measurement-17.3.0\AndroidManifest.xml:52:13-69
+219
+220        <receiver
+220-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\0378018811dadecd4484e276e778c107\firebase-iid-20.2.3\AndroidManifest.xml:37:9-44:20
+221            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+221-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\0378018811dadecd4484e276e778c107\firebase-iid-20.2.3\AndroidManifest.xml:38:13-78
+222            android:exported="true"
+222-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\0378018811dadecd4484e276e778c107\firebase-iid-20.2.3\AndroidManifest.xml:39:13-36
+223            android:permission="com.google.android.c2dm.permission.SEND" >
+223-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\0378018811dadecd4484e276e778c107\firebase-iid-20.2.3\AndroidManifest.xml:40:13-73
+224            <intent-filter>
+224-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\0378018811dadecd4484e276e778c107\firebase-iid-20.2.3\AndroidManifest.xml:41:13-43:29
+225                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+225-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\0378018811dadecd4484e276e778c107\firebase-iid-20.2.3\AndroidManifest.xml:42:17-81
+225-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\0378018811dadecd4484e276e778c107\firebase-iid-20.2.3\AndroidManifest.xml:42:25-78
+226            </intent-filter>
+227        </receiver>
+228
+229        <provider
+229-->[com.google.firebase:firebase-common:19.3.0] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\2da98f58253237727bbe35c251c858fd\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+230            android:name="com.google.firebase.provider.FirebaseInitProvider"
+230-->[com.google.firebase:firebase-common:19.3.0] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\2da98f58253237727bbe35c251c858fd\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+231            android:authorities="com.rntest.firebaseinitprovider"
+231-->[com.google.firebase:firebase-common:19.3.0] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\2da98f58253237727bbe35c251c858fd\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+232            android:exported="false"
+232-->[com.google.firebase:firebase-common:19.3.0] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\2da98f58253237727bbe35c251c858fd\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+233            android:initOrder="100" />
+233-->[com.google.firebase:firebase-common:19.3.0] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\2da98f58253237727bbe35c251c858fd\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+234
+235        <activity
+235-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\dec23f66b430b7bfb6df676cedb1ad12\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+236            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+236-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\dec23f66b430b7bfb6df676cedb1ad12\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+237            android:exported="false"
+237-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\dec23f66b430b7bfb6df676cedb1ad12\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+238            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+238-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\dec23f66b430b7bfb6df676cedb1ad12\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+239
+240        <meta-data
+240-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\e81a8145cb57317d648215bbb758c6a6\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+241            android:name="com.google.android.gms.version"
+241-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\e81a8145cb57317d648215bbb758c6a6\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+242            android:value="@integer/google_play_services_version" />
+242-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\e81a8145cb57317d648215bbb758c6a6\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+243
+244        <service
+244-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\92ac16d35e2df286b4b0e675696be3ae\jetified-library-3.2.11\AndroidManifest.xml:19:9-21:40
+245            android:name="io.nlopez.smartlocation.activity.providers.ActivityGooglePlayServicesProvider$ActivityRecognitionService"
+245-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\92ac16d35e2df286b4b0e675696be3ae\jetified-library-3.2.11\AndroidManifest.xml:20:13-132
+246            android:exported="false" />
+246-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\92ac16d35e2df286b4b0e675696be3ae\jetified-library-3.2.11\AndroidManifest.xml:21:13-37
+247        <service
+247-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\92ac16d35e2df286b4b0e675696be3ae\jetified-library-3.2.11\AndroidManifest.xml:22:9-24:40
+248            android:name="io.nlopez.smartlocation.geofencing.providers.GeofencingGooglePlayServicesProvider$GeofencingService"
+248-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\92ac16d35e2df286b4b0e675696be3ae\jetified-library-3.2.11\AndroidManifest.xml:23:13-127
+249            android:exported="false" />
+249-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\92ac16d35e2df286b4b0e675696be3ae\jetified-library-3.2.11\AndroidManifest.xml:24:13-37
+250        <service
+250-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\92ac16d35e2df286b4b0e675696be3ae\jetified-library-3.2.11\AndroidManifest.xml:25:9-27:40
+251            android:name="io.nlopez.smartlocation.geocoding.providers.AndroidGeocodingProvider$AndroidGeocodingService"
+251-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\92ac16d35e2df286b4b0e675696be3ae\jetified-library-3.2.11\AndroidManifest.xml:26:13-120
+252            android:exported="false" />
+252-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\20115732\.gradle\caches\transforms-2\files-2.1\92ac16d35e2df286b4b0e675696be3ae\jetified-library-3.2.11\AndroidManifest.xml:27:13-37
+253    </application>
+254
+255</manifest>

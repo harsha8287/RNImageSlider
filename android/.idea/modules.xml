@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2022481032/@react-native-community_netinfo.iml" filepath="$PROJECT_DIR$/.idea/modules/2022481032/@react-native-community_netinfo.iml" group="RNTest/@react-native-community_netinfo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RNTest.iml" filepath="$PROJECT_DIR$/.idea/modules/RNTest.iml" group="RNTest" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="RNTest/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1370443447/expo-constants.iml" filepath="$PROJECT_DIR$/.idea/modules/-1370443447/expo-constants.iml" group="RNTest/expo-constants" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/85841856/expo-error-recovery.iml" filepath="$PROJECT_DIR$/.idea/modules/85841856/expo-error-recovery.iml" group="RNTest/expo-error-recovery" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/971883546/expo-file-system.iml" filepath="$PROJECT_DIR$/.idea/modules/971883546/expo-file-system.iml" group="RNTest/expo-file-system" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-882901803/expo-font.iml" filepath="$PROJECT_DIR$/.idea/modules/-882901803/expo-font.iml" group="RNTest/expo-font" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-819111605/expo-image-loader.iml" filepath="$PROJECT_DIR$/.idea/modules/-819111605/expo-image-loader.iml" group="RNTest/expo-image-loader" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1820733251/expo-keep-awake.iml" filepath="$PROJECT_DIR$/.idea/modules/1820733251/expo-keep-awake.iml" group="RNTest/expo-keep-awake" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1182994514/expo-linear-gradient.iml" filepath="$PROJECT_DIR$/.idea/modules/1182994514/expo-linear-gradient.iml" group="RNTest/expo-linear-gradient" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1025132347/expo-location.iml" filepath="$PROJECT_DIR$/.idea/modules/1025132347/expo-location.iml" group="RNTest/expo-location" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1945800958/expo-permissions.iml" filepath="$PROJECT_DIR$/.idea/modules/1945800958/expo-permissions.iml" group="RNTest/expo-permissions" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-219934956/expo-splash-screen.iml" filepath="$PROJECT_DIR$/.idea/modules/-219934956/expo-splash-screen.iml" group="RNTest/expo-splash-screen" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1170002450/expo-sqlite.iml" filepath="$PROJECT_DIR$/.idea/modules/1170002450/expo-sqlite.iml" group="RNTest/expo-sqlite" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/182416452/expo-updates.iml" filepath="$PROJECT_DIR$/.idea/modules/182416452/expo-updates.iml" group="RNTest/expo-updates" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1087014116/react-native-community_masked-view.iml" filepath="$PROJECT_DIR$/.idea/modules/1087014116/react-native-community_masked-view.iml" group="RNTest/react-native-community_masked-view" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2022481032/react-native-community_netinfo.iml" filepath="$PROJECT_DIR$/.idea/modules/2022481032/react-native-community_netinfo.iml" group="RNTest/react-native-community_netinfo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1159018611/react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/1159018611/react-native-gesture-handler.iml" group="RNTest/react-native-gesture-handler" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/764557500/react-native-localize.iml" filepath="$PROJECT_DIR$/.idea/modules/764557500/react-native-localize.iml" group="RNTest/react-native-localize" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1861528009/react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/1861528009/react-native-reanimated.iml" group="RNTest/react-native-reanimated" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2071724060/react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/2071724060/react-native-safe-area-context.iml" group="RNTest/react-native-safe-area-context" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1558736076/react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/-1558736076/react-native-screens.iml" group="RNTest/react-native-screens" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1549142532/react-native-sound.iml" filepath="$PROJECT_DIR$/.idea/modules/-1549142532/react-native-sound.iml" group="RNTest/react-native-sound" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1547847466/react-native-track-player.iml" filepath="$PROJECT_DIR$/.idea/modules/-1547847466/react-native-track-player.iml" group="RNTest/react-native-track-player" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/619310147/react-native-vector-icons.iml" filepath="$PROJECT_DIR$/.idea/modules/619310147/react-native-vector-icons.iml" group="RNTest/react-native-vector-icons" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1470543296/unimodules-app-loader.iml" filepath="$PROJECT_DIR$/.idea/modules/-1470543296/unimodules-app-loader.iml" group="RNTest/unimodules-app-loader" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1413145668/unimodules-barcode-scanner-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/-1413145668/unimodules-barcode-scanner-interface.iml" group="RNTest/unimodules-barcode-scanner-interface" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1229232850/unimodules-camera-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/1229232850/unimodules-camera-interface.iml" group="RNTest/unimodules-camera-interface" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-687760614/unimodules-constants-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/-687760614/unimodules-constants-interface.iml" group="RNTest/unimodules-constants-interface" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-63805524/unimodules-core.iml" filepath="$PROJECT_DIR$/.idea/modules/-63805524/unimodules-core.iml" group="RNTest/unimodules-core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1361691585/unimodules-face-detector-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/1361691585/unimodules-face-detector-interface.iml" group="RNTest/unimodules-face-detector-interface" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1042917525/unimodules-file-system-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/-1042917525/unimodules-file-system-interface.iml" group="RNTest/unimodules-file-system-interface" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/937898428/unimodules-font-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/937898428/unimodules-font-interface.iml" group="RNTest/unimodules-font-interface" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/749619122/unimodules-image-loader-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/749619122/unimodules-image-loader-interface.iml" group="RNTest/unimodules-image-loader-interface" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1224517809/unimodules-permissions-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/-1224517809/unimodules-permissions-interface.iml" group="RNTest/unimodules-permissions-interface" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/11258804/unimodules-react-native-adapter.iml" filepath="$PROJECT_DIR$/.idea/modules/11258804/unimodules-react-native-adapter.iml" group="RNTest/unimodules-react-native-adapter" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1402885372/unimodules-sensors-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/-1402885372/unimodules-sensors-interface.iml" group="RNTest/unimodules-sensors-interface" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1000149422/unimodules-task-manager-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/-1000149422/unimodules-task-manager-interface.iml" group="RNTest/unimodules-task-manager-interface" />
+    </modules>
+  </component>
+</project>

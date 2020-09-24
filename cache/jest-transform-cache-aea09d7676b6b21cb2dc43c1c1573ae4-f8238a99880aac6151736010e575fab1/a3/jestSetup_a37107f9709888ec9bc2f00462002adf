@@ -1,0 +1,22 @@
+e0c252ef381a113e6b56c4dfe3106002
+_getJestObj().mock("./RNGestureHandlerModule");
+
+_getJestObj().mock('@react-native-community/netinfo', function () {
+  return _netinfoMock.default;
+});
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+var _netinfoMock = _interopRequireDefault(require("@react-native-community/netinfo/jest/netinfo-mock.js"));
+
+function _getJestObj() {
+  var _require = require("@jest/globals"),
+      jest = _require.jest;
+
+  _getJestObj = function _getJestObj() {
+    return jest;
+  };
+
+  return jest;
+}
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImplc3RTZXR1cC5qcyJdLCJuYW1lcyI6WyJtb2NrIiwibW9ja1JOQ05ldEluZm8iXSwibWFwcGluZ3MiOiJBQUVBLGNBQUtBLElBQUw7O0FBREEsY0FBS0EsSUFBTCxDQUFVLGlDQUFWLEVBQTZDO0FBQUEsU0FBTUMsb0JBQU47QUFBQSxDQUE3Qzs7OztBQURBIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IG1vY2tSTkNOZXRJbmZvIGZyb20gJ0ByZWFjdC1uYXRpdmUtY29tbXVuaXR5L25ldGluZm8vamVzdC9uZXRpbmZvLW1vY2suanMnO1xuamVzdC5tb2NrKCdAcmVhY3QtbmF0aXZlLWNvbW11bml0eS9uZXRpbmZvJywgKCkgPT4gbW9ja1JOQ05ldEluZm8pO1xuamVzdC5tb2NrKCcuL1JOR2VzdHVyZUhhbmRsZXJNb2R1bGUnKTtcbiJdfQ==
