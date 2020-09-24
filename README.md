@@ -1,6 +1,6 @@
 # React Native Assessment!
 
-  - Application displays images in slider component with 
+  - Application displays images in slider component 
 
 ### Getting Started
 
@@ -53,7 +53,7 @@ $ yarn ios 'or' react-native run-ios
 
 - Image 1: Home screen - Image Slider Screen
 
-![alt text](https://github.com/harsha8287/ReactNativeTest/blob/master/screenshots/screenshot01.PNG?raw=true)
+![alt text](https://github.com/harsha8287/RNImageSlider/blob/master/screenshots/HomeScreen_01.png?raw=true)
 
 ### Build with
 
